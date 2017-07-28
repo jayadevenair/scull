@@ -1,7 +1,7 @@
 #If KERNELRELEASE is defined, we've been invoked from the
 #kernel build system and its language can be used.
 ifneq ($(KERNELRELEASE),)
-		obj-m := scull.o
+		obj-m := main.o
 
 #Otherwise we are called directely from the command
 #line, invoke kernel build system
